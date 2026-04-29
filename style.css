@@ -1,28 +1,27 @@
 body {
     background-color: #f9f9f9;
-    color: #24292e;
+    color: #333;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    text-align: center;
 }
 
 .container {
-    text-align: center;
     max-width: 600px;
     padding: 20px;
 }
 
-.error-box h1 {
-    font-size: 120px;
+h1 {
+    font-size: 80px;
     margin: 0;
-    font-weight: 900;
-    color: #e1e4e8;
+    font-weight: 300;
 }
 
-.error-box p {
+p {
     font-size: 18px;
     line-height: 1.5;
     margin: 10px 0;
@@ -37,15 +36,14 @@ a:hover {
     text-decoration: underline;
 }
 
-.troubleshooting {
+.footer {
     margin-top: 30px;
-    border-top: 1px solid #e1e4e8;
-    padding-top: 20px;
+    font-size: 14px;
+    color: #6a737d;
 }
 
-.illustration {
+.octocat-img {
+    width: 120px;
     margin-top: 40px;
-    width: 100%;
-    max-width: 400px;
     opacity: 0.8;
 }
